@@ -117,6 +117,12 @@ git config --global user.email "your_email@example.com"
 
 The name and email should be ***your*** name and email that you use on GitHub.
 
+The following command we ensure that the default branch name is `main`
+
+```zsh
+git config --global init.defaultBranch main
+```
+
 #### Setting Up GitHub Authentication
 
 In order for GitHub to deem our machines as "safe" to push code, we need to setup an identification key known as an `ssh key`.
